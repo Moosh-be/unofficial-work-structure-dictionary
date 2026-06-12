@@ -199,5 +199,69 @@ Sans engagement, quelques axes probables :
 - une représentation “neutre” (YAML/JSON) pour la portabilité
 
 ---
+## Mon rêve (objectif assumé, même s’il paraît démesuré)
+
+Directive INSPIRE (CELEX:02007L0002-20241126)](https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02007L0002-20241126)
+
+### Pourquoi ce rêve a du sens (à mes yeux)
+
+Parce que la gestion (projet / produit / service / portefeuille…) souffre d’un problème proche de celui que INSPIRE adresse dans un autre domaine :
+
+- les mêmes objets existent partout… mais sont nommés et structurés différemment
+- les outils enferment les données dans des formats peu interchangeables
+- les organisations réinventent des conventions non compatibles entre elles
+- la comparaison, l’agrégation, la transparence et la capitalisation deviennent coûteuses
+
+Un langage commun des artefacts — même minimal — pourrait faciliter :
+
+- l’interopérabilité entre outils
+- la circulation de la donnée (data mesh)
+- la capitalisation et la traçabilité
+- l’hybridation des cadres (sans guerre de méthodes)
+- l’open source appliqué à la gestion (pas seulement au code)
+
+### Ce que je vise réellement (et ce que je ne promets pas)
+
+Je ne “vise” pas une norme UE comme un objectif opérationnel à court terme.  
+Je le formule comme une **direction**, une **boussole**, un **horizon**.
+
+Ce projet commence par :
+- un besoin personnel
+- un contexte concret
+- des artefacts très terrestres
+- des outils imparfaits
+- des compromis assumés
+
+S’il doit devenir “grand”, ce ne sera pas par proclamation, mais par accumulation :
+- d’usage réel
+- de clarté
+- de contributions
+- de stabilité du noyau
+- et d’extensions compatibles
+
+### Une condition non négociable : rester ouvert
+
+Si un jour ce travail prend de l’ampleur, je veux qu’il reste :
+- réutilisable
+- forkable
+- améliorable
+- transmissible
+
+et surtout **qu’aucune appropriation propriétaire ne puisse confisquer le langage commun**.
+
+C’est pour cela que je privilégie une logique de type *copyleft* pour les contenus conceptuels :  
+*« tout le monde peut utiliser ; si tu redistribues, tu restes dans le commun »*.
+
+J’ai un rêve un peu naïf, au sens noble du terme :  
+celui du *« il ne savait pas que c’était infaisable, donc il l’a fait »*.
+
+Si ce projet tient, s’il trouve sa forme, s’il est adopté, amélioré, éprouvé…  
+alors **j’aimerais qu’il puisse un jour devenir une norme européenne** —  
+à l’instar de ce qu’a été **INSPIRE** pour les données géographiques.
+
+INSPIRE est pour moi un repère :  
+une initiative qui montre qu’un **socle commun de définitions**, de structures et d’interopérabilité peut devenir un levier majeur à l’échelle d’un écosystème entier.
+
+
 
 *Fin du README de genèse.*
