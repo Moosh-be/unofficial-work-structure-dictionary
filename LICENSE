@@ -1,4 +1,22 @@
-MIT pour le code
-Creative Commons BY-SA 4.0 pour le respect
+## Licences
 
-Je complète après
+Ce dépôt utilise **deux licences distinctes**, en fonction de la nature des contenus.
+
+### Code
+
+Le code (scripts, outils, connecteurs, exemples techniques) est publié sous licence **MIT**.
+
+Cela permet une réutilisation large, y compris en contexte professionnel ou propriétaire.
+
+### Documentation, modèles et nomenclature
+
+Les contenus conceptuels (documentation, langage, nomenclature, modèles de données, schémas) sont publiés sous licence  
+**Creative Commons Attribution – ShareAlike 4.0 International (CC BY‑SA 4.0)**.
+
+Cette licence permet :
+- l’utilisation,
+- la modification,
+- la redistribution,
+
+tout en imposant que toute œuvre dérivée reste sous la même licence,  
+afin d’éviter toute appropriation propriétaire du langage ou du modèle.
