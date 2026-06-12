@@ -1,64 +1,203 @@
-c'est le vrai readme.
+# Genèse — nomenclature d’artefacts de gestion (un dépôt d’abord personnel)
 
+> Ce README est volontairement **personnel**.  
+> Il raconte la **genèse** du projet, son point de départ situé, ses tensions, ses convictions.  
+> Le projet vise peut‑être à devenir communautaire avec le temps, mais **dans un premier temps il répond à des besoins très personnels et contextualisés**.  
+> Je préfère l’assumer plutôt que de faire semblant d’être neutre.
 
-Qu'est-ce que j'essaye de faire ?
+---
 
-Je construis empiriquement mais en tentant d'être le plus propre et ouvert, une liste de nomenclature pour des artefacts de gestion
+## Qu’est-ce que j’essaye de faire ?
 
-Ca fait  30 ans que je bosse sur des projets, début du siècle j'ai découvert scrum, lean puis l'agilité.
-En  2020, retour brutal à la gestion de projet (celle du sciècle précédent, qui essaye de rester dans le coup avec la confrontation de ces nouvelles approches qui challengent un peu trop les habitudes ancrées du tailorismes.)
+Je construis empiriquement — en tentant d’être le plus propre et ouvert possible — une **nomenclature** (et, à terme, un **modèle de données**) pour structurer des **artefacts de gestion**.
 
-Mais au bout du compte, au dela de ce qui "oriente" la manière d'aborder les choses, on se retrouve toujours avec les mêmes types d'artefact, des tâches, des gens, des décisions, des "dates", des dépenses, des biens, des idées, des demandes, des objectifs, des rapports, des validations, ...
+Je ne cherche pas à inventer une méthode de plus.  
+Je cherche à mieux nommer, mieux structurer, mieux découpler.
 
-Le but ici est de proposer une convention pour structurer les données de tous ces objets métiers.
-Et de founir les outils qui peuvent aller avec.
+---
 
-Pour comprendre la manoeuvre il faut savoir que je suis un ultra convaincu par
-- l'opensource
-- le créative commons
-- le data mesh
-- le découplage
+## Pourquoi ça existe (mon histoire rapide)
 
-Je construis "empiriquement" 
-- parce que je sais que je suis humain, que je n'ai pas "la solution", que personne ne l'a 
-- parce que je sais que je vais faire des mauvais choix, ou parfois même de bon choix... pour moi mais pas pour le contexte d'autres.
+Ça fait ~30 ans que je bosse sur des projets.
 
-J'ai le souhait de concilier un noyau "commun" et des branches inclusives pour les contextes.
+- Début des années 2000 : découverte de Scrum, Lean, puis de “l’agilité”.
+- 2020 : retour brutal à de la gestion de projet plus “classique”, parfois en mode “siècle précédent”, parfois en hybridation sincère, souvent en confrontation avec des habitudes héritées (tailorisme, reporting, rigidités d’outils).
 
-MON contexte actuel c'est
-- outils
-    - MsProject <- abandon à envisager 
-    - MsPlanner <- solution de replis pour l'abandon de msProject
-    - MsTodo <- solution de base pour solo
-    - Jira Software Datacenter <- abandon en 2029
-    - OpenProject <- solution à l'essai, non adoptée dans mon contexte professionnel, mais pris en charge par conviction
-    - Miro <- solution d'entreprise  
-    - Sharepoint (Pages, List)
-    - Github
-    - GitLab
-    - PowerQuery
-    - PowerBi
-    - Oracle Analytics cloud
-    - Denodo
-    - Joplin
-    - Obsidian
-    - vsstudio
+Avec le temps, un constat s’impose :
 
-- gestion 
-    - réalité 
-        - de projet sans méthode
-        - de produit en scrum
-        - de produit en SaFE bien modifié
-        - de service sans méthode
-    - legacy 
-        - de projet avec pmp ou prince2
-    - intention 
-        - de projet avec PM²
-        - d'hybridation Projet/Agilité avec PAM² 
-        - de programme avec PgM²
-        - de portefeuille avec PfM²
-        - de produit/service en SaFE
-        - de service en ITIL (4)
-        - d'architecture avec Togaf
-        - de changement avec ADKAR
+> Les méthodes changent, les outils passent…  
+> mais on se retrouve toujours avec les **mêmes types d’objets** à gérer.
 
+---
+
+## Le constat : les artefacts sont universels (ou presque)
+
+Quel que soit le cadre (projet, produit, service… agile, classique, hybride…), on manipule toujours :
+
+- des **tâches**
+- des **personnes / rôles**
+- des **décisions**
+- des **dates / jalons**
+- des **dépenses / budgets**
+- des **biens / ressources**
+- des **idées**
+- des **demandes**
+- des **objectifs**
+- des **rapports**
+- des **validations**
+- …et d’autres variantes du même “bestiaire”.
+
+Les approches orientent la manière d’aborder les choses.  
+Mais les objets métier, eux, reviennent.
+
+---
+
+## Le but (sobrement)
+
+Proposer une **convention** pour structurer les données de ces objets métiers  
+et fournir (ou faciliter) les **outils** qui peuvent aller avec.
+
+En d’autres mots : rendre les artefacts plus **interopérables**, plus **durables**, plus **réutilisables**, moins captifs des outils et des méthodes.
+
+---
+
+## Mes convictions (elles sont structurantes)
+
+Je suis “ultra convaincu” par :
+
+- **l’open source**
+- **Creative Commons**
+- **le data mesh**
+- **le découplage**
+
+Ça influence directement l’intention de ce dépôt :  
+séparer au maximum **les données**, **les pratiques**, **les outils**, et **les contextes**.
+
+---
+
+## Une démarche volontairement empirique (et assumée imparfaite)
+
+Je construis empiriquement :
+
+- parce que je sais que je suis humain
+- parce que je n’ai pas “la solution” (et que personne ne l’a)
+- parce que je ferai de mauvais choix
+- parce que je ferai parfois de bons choix… mais *bons pour moi* et pas forcément pour d’autres
+
+Je veux concilier :
+
+- un **noyau commun** (stable, réutilisable)
+- et des **branches inclusives** (adaptées à des contextes variés)
+
+---
+
+## Deux réalités : “mon boulot” vs “mes valeurs”
+
+Je fais volontairement la distinction entre :
+
+### 1) Les besoins **pour mon boulot** (contexte contraint)
+
+Ici, je suis pragmatique : je dois composer avec un environnement outil, des contraintes d’entreprise, et des attentes parfois très normées.
+
+Mon terrain principal dans ce contexte est **SharePoint** (Pages, Lists), et l’écosystème M365.
+
+Objectif dans ce monde-là :  
+> **apporter du sens et de la structure** sans tout casser, sans dogme, en restant utilisable par d’autres.
+
+### 2) Les besoins **pour mes valeurs** (contexte choisi)
+
+Ici, je cherche la cohérence avec mes convictions : ouverture, standards, contribution, pérennité.
+
+Dans ce cadre, **OpenProject** est central (même si pas adopté dans mon contexte pro),  
+et ce dépôt sert aussi de lieu d’exploration et de capitalisation.
+
+Objectif dans ce monde-là :  
+> construire quelque chose de **partageable**, **forkable**, contributif, potentiellement communautaire.
+
+---
+
+## Mon contexte actuel (situation de départ)
+
+### Outils
+
+- **MS Project** *(abandon à envisager)*
+- **MS Planner** *(solution de repli pour l’abandon de MS Project)*
+- **MS To Do** *(solution de base pour solo)*
+- **Jira Software Datacenter** *(abandon en 2029)*
+- **OpenProject** *(solution à l’essai / non adoptée au travail / soutenue par conviction)*
+- **Miro** *(solution d’entreprise)*
+- **SharePoint** *(Pages, Lists)*
+- **GitHub**
+- **GitLab**
+- **Power Query**
+- **Power BI**
+- **Oracle Analytics Cloud**
+- **Denodo**
+- **Joplin**
+- **Obsidian**
+- **VS Code**
+
+### Gestion / pratiques (réalité, legacy, intention)
+
+#### Réalité
+- projet sans méthode
+- produit en Scrum
+- produit en SAFe (fortement modifié)
+- service sans méthode
+
+#### Legacy
+- projet PMP / PRINCE2
+
+#### Intention
+- projet avec **PM²**
+- hybridation projet/agilité avec **PAM²**
+- programme avec **PgM²**
+- portefeuille avec **PfM²**
+- produit/service en **SAFe**
+- service en **ITIL 4**
+- architecture avec **TOGAF**
+- changement avec **ADKAR**
+
+---
+
+## Ce dépôt aujourd’hui (position honnête)
+
+Aujourd’hui, ce projet :
+
+- est d’abord un **outil pour moi**
+- est explicitement **contextualisé**
+- assume un point de vue “depuis le terrain”
+- cherche à être propre, documenté, et ouvrable
+
+Peut-être qu’il deviendra communautaire.  
+Mais je ne veux pas brûler les étapes.
+
+---
+
+## Ce que ce dépôt n’est pas
+
+- ❌ une méthode de gestion
+- ❌ un cadre à imposer
+- ❌ une vérité universelle
+- ❌ un “standard” décrété
+
+C’est :
+- ✅ une genèse
+- ✅ un laboratoire
+- ✅ une tentative de nomenclature structurée
+- ✅ un projet pensé pour pouvoir s’ouvrir sans se renier
+
+---
+
+## (Optionnel) Une direction de structuration future
+
+Sans engagement, quelques axes probables :
+
+- un **noyau commun** d’artefacts (core)
+- des **extensions par contexte** (projet / produit / service / cadre)
+- des **mappings outils** (SharePoint Lists, OpenProject, Planner, etc.)
+- une représentation “neutre” (YAML/JSON) pour la portabilité
+
+---
+
+*Fin du README de genèse.*
