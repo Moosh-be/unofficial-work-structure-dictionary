@@ -1,0 +1,18 @@
+Voici le tableau récapitulatif des objets métiers que nous avons identifiés pour votre projet. 
+
+| Id Unique Naturel | Nom en Français | Nom en Anglais | Dernière version | Nom du dossier | Remarque |
+| --- | --- | --- | --- | --- | --- |
+| OBJ-001 | Index | Index | xxx | /01-index | Index central du projet |
+| OBJ-002 | Individus | Persons | xxx | /02-individus | Les gens, les identités |
+| OBJ-003 | Livrables | Deliverables | xxx | /03-deliverables | Éléments produits, réceptionnables |
+| OBJ-004 | Décisions | Decisions | xxx | /04-decisions | Choix actés |
+| OBJ-005 | Jalons | Milestones | xxx | /05-milestones | Points de passage clés, dates nommées |
+| OBJ-006 | Ressources | Resources | xxx | /06-resources | Humaines, matérielles, ce qui peut être alloué (je ne sais pas encore si on mélangera les consommables et les usables) |
+| OBJ-007 | Parties prenantes | Stakeholders | xxx | /06-stakeholders | Acteurs concernés |
+| OBJ-008 | Risques | Risks | xxx | /07-risks | Menaces, problèmes hypotétiques |
+| OBJ-009 | Documents | Documents | xxx | /09-document | Permet de référencer les pièces documentaires associables à un artefact |
+| OBJ-010 | Indicateurs de performance | KPIs | xxx | /10-kpi | Métriques de suivi |
+| OBJ-011 | Cas de test | Test Cases | xxx | /11-test-cases | Vérifications |
+| OBJ-012 | Exigences | Requirements | xxx | /12-requirements | Besoins fonctionnels |
+| OBJ-013 | Calendrier/Échéances | Schedule/Dates | xxx | /calendar | Éléments liés aux dates |
+| OBJ-014 | Budgets | Budgets | xxx | /08-budgets | Aspects financiers, ca n'est pas encore clair, et il existe peut-être déjà des normes |
