@@ -14,5 +14,6 @@ Voici le tableau récapitulatif des objets métiers que nous avons identifiés p
 | OBJ-010 | Indicateurs de performance | KPIs | xxx | /10-kpi | Métriques de suivi |
 | OBJ-011 | Cas de test | Test Cases | xxx | /11-test-cases | Vérifications |
 | OBJ-012 | Exigences | Requirements | xxx | /12-requirements | Besoins fonctionnels |
-| OBJ-013 | Calendrier/Échéances | Schedule/Dates | xxx | /calendar | Éléments liés aux dates |
-| OBJ-014 | Budgets | Budgets | xxx | /08-budgets | Aspects financiers, ca n'est pas encore clair, et il existe peut-être déjà des normes |
+| OBJ-013 | Calendrier/Échéances | Schedule/Dates | xxx | /13-calendar | est-ce que event (copain de vCard) est pertinent ? |
+| OBJ-014 | Budgets | Budgets | xxx | /14-budgets | Aspects financiers, ca n'est pas encore clair, et il existe peut-être déjà des normes |
+| OBJ-015 | Affectation | Assignee | xxx | /15-affectation | qui fait quoi |
