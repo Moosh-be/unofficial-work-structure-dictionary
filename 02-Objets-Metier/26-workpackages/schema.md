@@ -1,0 +1,57 @@
+# Schema : Objet WorkPackage (OBJ-026)
+
+## 1. Présentation
+
+Cet objet représente l'entité universelle de travail d'OpenProject. Il unifie tous les types d'unités de travail (tâches, bugs, besoins, jalons, etc.) sous un même modèle.
+
+## 2. Dictionnaire des attributs
+
+| Nom du champ | Type | Obligatoire | Description |
+| :--- | :--- | :--- | :--- |
+| `id_workpackage` | UUID | Oui | Identifiant unique du WorkPackage. |
+| `subject` | String | Oui | Titre/sujet du WorkPackage. |
+| `description` | Text | Non | Description détaillée. |
+| `type` | Enum | Oui | Type (`Task`, `Milestone`, `Phase`, `Requirement`, `Change Request`, `Cost`, `Bug`, `Time Entry`, `Document`). |
+| `status` | Enum | Oui | État (`New`, `In Progress`, `Pending`, `Closed`, `Rejected`, `Timed Out`). |
+| `priority` | Enum | Oui | Priorité (`Low`, `Medium`, `High`, `Very High`, `Immediate`). |
+| `category` | String | Non | Catégorie de classification. |
+| `assigned_to` | UUID | Oui | Personne assignée. |
+| `reporting_to` | UUID | Non | WorkPackage parent (reporting). |
+| `created_on` | Date/Time | Oui | Date de création. |
+| `updated_on` | Date/Time | Oui | Dernière modification. |
+| `done_by` | Date/Time | Non | Date de clôture. |
+| `scheduled_start` | Date | Non | Date de début planifiée. |
+| `scheduled_end` | Date | Non | Date de fin planifiée. |
+| `created_on` | Date/Time | Oui | Date effective de création. |
+| `updated_on` | Date/Time | Oui | Date effective de mise à jour. |
+| `done` | Date/Time | Non | Date effective de clôture. |
+| `budget` | Number | Non | Budget estimé (coût). |
+| `auto_estimate` | Boolean | Non | Estimation automatique activée. |
+| `freeze_dates` | Boolean | Non | Dates figées (empêche les modifications). |
+| `lock_version` | Integer | Oui | Version pour verrouillage optimiste. |
+| `identifier` | String | Non | Identifiant court (ex: WP-123). |
+
+## 3. Champs personnalisés
+
+| Nom du champ | Type | Obligatoire | Description |
+| :--- | :--- | :--- | :--- |
+| `custom_fields` | JSON | Non | Champs personnalisés dynamiques. |
+
+## 4. Contraintes et règles de gestion
+
+- **Type cohérent** : Le `type` détermine les champs spécifiques disponibles.
+- **Hiérarchie** : `reporting_to` doit pointer vers un WorkPackage de niveau supérieur ou null.
+- **Dates valides** : `scheduled_start` ≤ `scheduled_end` si les deux sont renseignées.
+- **Verrouillage** : Un WorkPackage `Closed` ne peut être modifié que si `freeze_dates` = false.
+
+## 5. Relations
+
+- **Lié à** : `OBJ-004-Individus` (Personne assignée).
+- **Lié à** : `OBJ-015-Assignation` (Historique des assignations).
+- **Lié à** : `OBJ-027-TimeEntries` (Temps passés).
+- **Lié à** : `OBJ-028-Versions` (Versions associées).
+- **Lié à** : `OBJ-032-Files` (Fichiers joints).
+- **Lié à** : `OBJ-025-Dependencies` (Relations avec d'autres WorkPackages).
+- **Lié à** : `OBJ-003-Decisions` (Décisions liées).
+- **Lié à** : `OBJ-024-WBSNode` (Nœud WBS parent).
+- **Lié à** : `OBJ-026-WorkPackage` (Relations internes entre WorkPackages).
