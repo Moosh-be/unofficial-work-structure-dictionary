@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tronc Acteur",
+  "description": "Tronc commun pour les acteurs humains et leurs permissions",
+  "type": "object",
+  "required": ["id", "identite", "statut"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identifiant unique de l'acteur"
+    },
+    "identite": {
+      "type": "string",
+      "description": "Nom, email ou user_id de la personne"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Adresse email"
+    },
+    "organisation": {
+      "type": "string",
+      "description": "Entité rattachée"
+    },
+    "role": {
+      "type": "string",
+      "description": "Rôle fonctionnel"
+    },
+    "date_debut": {
+      "type": "string",
+      "format": "date",
+      "description": "Date de début d'accès"
+    },
+    "date_fin": {
+      "type": "string",
+      "format": "date",
+      "description": "Date de fin d'accès"
+    },
+    "statut": {
+      "type": "string",
+      "enum": ["Actif", "Inactif", "Expiré", "Nouveau", "Fermé"],
+      "description": "État de l'acteur"
+    },
+    "permissions": {
+      "type": "object",
+      "description": "Droits spécifiques (JSON)"
+    },
+    "origine_externe": {
+      "type": "object",
+      "description": "Champs reçus d'un système externe",
+      "additionalProperties": true
+    }
+  },
+  "x-tronc-info": {
+    "nom": "Acteur",
+    "objet": "troncs-communs.md",
+    "objets_couvres": ["OBJ-004 Individu", "OBJ-037 Member", "OBJ-034 Guest", "OBJ-038 Role", "OBJ-030 Group", "OBJ-015 Assignment"],
+    "version": "1.0"
+  }
+}

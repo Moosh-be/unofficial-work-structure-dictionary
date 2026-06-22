@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tronc Gouvernance",
+  "description": "Tronc commun pour les objets liés à la gouvernance et la prise de décision",
+  "type": "object",
+  "required": ["id", "titre", "decisionnaire", "decision"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identifiant unique de la décision"
+    },
+    "titre": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Objet de la gouvernance"
+    },
+    "decisionnaire": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Personne qui a tranché"
+    },
+    "decision": {
+      "type": "string",
+      "enum": ["Proposé", "En examen", "Validé", "Refusé", "Accepté", "Accepté avec réserves", "Reporté"],
+      "description": "La décision prise"
+    },
+    "date_decision": {
+      "type": "string",
+      "format": "date",
+      "description": "Date de la décision"
+    },
+    "justification": {
+      "type": "string",
+      "description": "Pourquoi cette décision"
+    },
+    "origine_externe": {
+      "type": "object",
+      "description": "Champs reçus d'un système externe",
+      "additionalProperties": true
+    }
+  },
+  "x-tronc-info": {
+    "nom": "Gouvernance",
+    "objet": "troncs-communs.md",
+    "objets_couvres": ["OBJ-003 Decision", "OBJ-018 ChangeRequest", "OBJ-019 QualityGate", "OBJ-016 DeliverableAcceptance"],
+    "version": "1.0"
+  }
+}

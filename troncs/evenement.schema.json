@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tronc EvenementTemporalise",
+  "description": "Tronc commun pour les événements marqués dans le temps (Milestone, QualityGate, Version, etc.)",
+  "type": "object",
+  "required": ["id", "titre", "date_planifiee", "phase", "resultat"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identifiant unique de l'événement"
+    },
+    "titre": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nom de l'événement"
+    },
+    "date_planifiee": {
+      "type": "string",
+      "format": "date",
+      "description": "Date prévue"
+    },
+    "date_reelle": {
+      "type": "string",
+      "format": "date",
+      "description": "Date effective (remplie après coup)"
+    },
+    "phase": {
+      "type": "string",
+      "enum": ["Démarrage", "Conception", "Développement", "Recette", "Livraison", "Clôture"],
+      "description": "Phase associée"
+    },
+    "resultat": {
+      "type": "string",
+      "enum": ["Planifié", "En cours", "Réalisé", "Passé", "Passé avec réserves", "Refusé", "Atteint", "Manqué", "Reporté", "Annulé"],
+      "description": "Issue de l'événement"
+    },
+    "origine_externe": {
+      "type": "object",
+      "description": "Champs reçus d'un système externe",
+      "additionalProperties": true
+    }
+  },
+  "x-tronc-info": {
+    "nom": "EvenementTemporalise",
+    "objet": "troncs-communs.md",
+    "objets_couvres": ["OBJ-005 Milestone", "OBJ-019 QualityGate", "OBJ-028 Version", "OBJ-016 DeliverableAcceptance"],
+    "version": "1.0"
+  }
+}

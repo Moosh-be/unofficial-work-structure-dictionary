@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tronc Financier",
+  "description": "Tronc commun pour les objets liés au suivi financier",
+  "type": "object",
+  "required": ["id", "montant", "date"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identifiant unique de l'élément financier"
+    },
+    "montant": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Montant financier"
+    },
+    "devise": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3,
+      "description": "Devise ISO (EUR, USD, etc.)"
+    },
+    "type": {
+      "type": "string",
+      "description": "Catégorie financière"
+    },
+    "statut": {
+      "type": "string",
+      "enum": ["Estimé", "Engagé", "Dépensé", "Clôturé", "Payé", "En attente"],
+      "description": "État du suivi financier"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date de la transaction"
+    },
+    "reference": {
+      "type": "string",
+      "description": "Référence externe (facture, bon de commande)"
+    },
+    "origine_externe": {
+      "type": "object",
+      "description": "Champs reçus d'un système externe",
+      "additionalProperties": true
+    }
+  },
+  "x-tronc-info": {
+    "nom": "Financier",
+    "objet": "troncs-communs.md",
+    "objets_couvres": ["OBJ-009 Budget", "OBJ-027 TimeEntry", "OBJ-033 Cost"],
+    "version": "1.0"
+  }
+}

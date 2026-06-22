@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tronc EntitéVie",
+  "description": "Tronc commun pour les entités avec cycle de vie (WorkPackage, Risk, Incident, ChangeRequest, etc.)",
+  "type": "object",
+  "required": ["id", "titre", "description", "statut", "date_creation"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identifiant unique de l'entité"
+    },
+    "titre": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Intitulé court de l'entité"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description détaillée"
+    },
+    "statut": {
+      "type": "string",
+      "enum": ["Nouveau", "En cours", "Fermé", "Ouvert", "En investigation", "En résolution", "Résolu", "Clôturé"],
+      "description": "Cycle de vie de l'entité"
+    },
+    "priorite": {
+      "type": "string",
+      "enum": ["Basse", "Moyenne", "Haute", "Très haute", "Immédiate", "Critique"],
+      "description": "Urgence / importance (optionnel)"
+    },
+    "responsable": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Personne en charge (optionnel)"
+    },
+    "date_creation": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date de création"
+    },
+    "date_mise_a_jour": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Dernière modification"
+    },
+    "origine_externe": {
+      "type": "object",
+      "description": "Champs reçus d'un système externe",
+      "additionalProperties": true
+    }
+  },
+  "x-tronc-info": {
+    "nom": "EntiteVie",
+    "objet": "troncs-communs.md",
+    "objets_couvres": ["OBJ-026 WorkPackage", "OBJ-008 Risk", "OBJ-022 Incident", "OBJ-018 ChangeRequest", "OBJ-013 Requirement", "OBJ-012 TestCase", "OBJ-003 Decision", "OBJ-020 Procurement", "OBJ-023 LessonLearned"],
+    "version": "1.0"
+  }
+}

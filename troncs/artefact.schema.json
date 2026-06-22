@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tronc Artefact",
+  "description": "Tronc commun pour les artefacts tangibles (Livrable, Document, File, ConfigItem)",
+  "type": "object",
+  "required": ["id", "titre"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Identifiant unique de l'artefact"
+    },
+    "titre": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nom de l'artefact"
+    },
+    "description": {
+      "type": "string",
+      "description": "Description"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version actuelle"
+    },
+    "statut": {
+      "type": "string",
+      "enum": ["Brouillon", "En révision", "Validé", "Livrée", "Archivé", "Accepté"],
+      "description": "État de l'artefact"
+    },
+    "stockage": {
+      "type": "string",
+      "description": "Chemin ou référence de stockage"
+    },
+    "proprietaire": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Personne responsable"
+    },
+    "origine_externe": {
+      "type": "object",
+      "description": "Champs reçus d'un système externe",
+      "additionalProperties": true
+    }
+  },
+  "x-tronc-info": {
+    "nom": "Artefact",
+    "objet": "troncs-communs.md",
+    "objets_couvres": ["OBJ-002 Livrable", "OBJ-010 Document", "OBJ-032 File", "OBJ-021 ConfigItem"],
+    "version": "1.0"
+  }
+}
