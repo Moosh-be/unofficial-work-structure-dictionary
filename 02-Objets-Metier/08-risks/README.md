@@ -38,3 +38,7 @@ Les risques peuvent être classés selon :
 
 > Un risque identifié et géré est un problème évité.
 > Un risque non identifié est une surprise.
+
+
+## Normes existantes
+* iso
