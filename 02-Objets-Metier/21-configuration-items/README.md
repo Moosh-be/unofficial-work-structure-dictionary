@@ -40,3 +40,23 @@ La gestion de configuration comprend :
 
 > Un élément non identifié n'est pas contrôlé.
 > Une baseline non figée est une baseline inutile.
+
+---
+
+## Normes existantes
+
+- **ISO/IEC/IEEE 15288** — System and software engineering lifecycle processes
+- **PMBOK® Guide** — Configuration management et change control
+- **ITIL 4** — Service configuration management
+- **ISO 10007** — Configuration management guidelines
+
+---
+
+## Outils connus
+
+- **Git / GitLab / GitHub** — Versioning de code et configuration items
+- **OpenProject** — CI tracked via WorkPackages
+- **Confluence** — Baseline documentation
+- **Azure DevOps** — Build/release pipelines avec configuration items
+- **SaltStack / Ansible** — Configuration management automatisé
+- **IBM Engineering Workflow Management** — Configuration items ALM
