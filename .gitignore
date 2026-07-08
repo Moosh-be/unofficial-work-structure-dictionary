@@ -2,3 +2,21 @@
 Thumbs.db
 AGENTS.local.md
 REFERENCE-HORS-LIGNE.md
+
+# Obsidian local workspace & user-specific settings
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace-copied.json
+.obsidian/keymaps.json
+.obsidian/hotkeys.json
+
+# Obsidian plugins (local install)
+.obsidian/plugins/
+
+# Obsidian caches
+.obsidian/.obsidian-plugins-backup/
+
+# OpenCode local
+opencode.json
+opencode.jsonc
+.opencode/
