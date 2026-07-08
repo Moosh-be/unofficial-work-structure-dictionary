@@ -52,3 +52,21 @@ Une requête définit :
 
 > Une Query sauvegardée est un gain de temps quotidien.
 > Une Query non partagée est une connaissance isolée.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Information distribution et reporting performance
+- **ISO 21502** — Reporting et vues personnalisées du projet
+- **OLAP / SQL standards** — Requêtes analytiques multi-dimensionnelles
+
+---
+
+## Outils connus
+
+- **OpenProject** — Saved queries natifs pour filtrer les WorkPackages
+- **Jira** — Saved filters et dashboards
+- **SQL** — Langage standard de requêtes
+- **Looker / Tableau** — Query et visualisation avancée
+- **Metabase** — Requêtes simples et dashboards
