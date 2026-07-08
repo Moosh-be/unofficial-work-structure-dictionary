@@ -56,3 +56,24 @@ Les Reports permettent de :
 
 > Un projet sans rapport est un projet aveugle.
 > Un rapport non lu est un rapport inutile.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Project communications et performance reporting
+- **ISO 21502** — Reporting et monitoring
+- **Balanced Scorecard** — Framework de reporting multicritères
+- **DASH (Data, Actions, Synthesis, Health)** — Framework de dashboard design
+
+---
+
+## Outils connus
+
+- **OpenProject** — Reports natifs (Burndown, Burndown, Budget, Risks, etc.)
+- **Microsoft Power BI** — Business intelligence et rapports
+- **Tableau** — Visualisation de données avancée
+- **Grafana** — Dashboards temps réel
+- **Metabase** — Rapports analytiques open source
+- **Looker (Google)** — Business intelligence
+- **Domo** — Dashboard et rapports business
