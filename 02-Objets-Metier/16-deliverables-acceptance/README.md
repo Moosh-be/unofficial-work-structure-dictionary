@@ -44,6 +44,7 @@ L'acceptation permet de :
 
 ## Normes existantes
 
+- **PM²** — Cadre de gouvernance et de gestion de projet de la Commission européenne, avec des principes d'acceptation et de validation des livrables
 - **PMBOK® Guide** — Validate Scope process
 - **ISO 9001** — Reçu et acceptation des livrables dans un système qualité
 - **PRINCE2** — Controlled stages et acceptation des produits (product approval)
