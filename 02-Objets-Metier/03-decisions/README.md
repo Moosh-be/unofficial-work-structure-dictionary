@@ -11,17 +11,20 @@ mais à **documenter le raisonnement** qui les a produites.
 
 ---
 
-## Ce qu’est une décision (dans ce projet)
+## Ce qu’est une décision (dans une activité)
 
 Une décision est :
+
 - un **arbitrage explicite**
 - pris par une personne ou une instance identifiable
 - qui engage des conséquences
 - et qui aurait pu être différente
 
 Toutes les décisions ne méritent pas d’être enregistrées.
+MAIS il peut être rassurant de le faire.
 
 Le registre concerne :
+
 - les décisions structurantes
 - les choix qui engagent la durée
 - les arbitrages ayant un impact sur :
@@ -35,6 +38,7 @@ Le registre concerne :
 ## Ce que le registre des décisions n’est pas
 
 Le registre n’est **pas** :
+
 - un journal de réunions
 - un compte‑rendu exhaustif
 - une liste de tâches
@@ -63,6 +67,7 @@ Il est un outil de **mémoire active**, pas de contrôle.
 ## Positionnement méthodologique
 
 Le registre des décisions est :
+
 - **indépendant des méthodes** (agile, classique, hybride)
 - compatible avec :
   - projet
@@ -78,12 +83,14 @@ Il constitue un **artefact de gouvernance générique**.
 ## Place dans le projet
 
 Dans ce dépôt :
+
 - le registre des décisions est un **artefact cœur**
 - il précède la nomenclature détaillée
 - il éclaire les manifestes
 - il documente les arbitrages fondateurs
 
 Les décisions prises ici façonnent :
+
 - la structure du dépôt
 - les conventions retenues
 - les choix d’outillage
@@ -101,7 +108,9 @@ Il **rend explicite**.
 
 ## Pourquoi un registre des décisions ?
 
-# Références normatives et cadres de référence# Ré regroupe les principaux cadres, standards et corpus de référence
+# Références normatives et cadres de référence# 
+
+Regroupe les principaux cadres, standards et corpus de référence
 utilisés dans les domaines de la gestion de projet, produit, service,
 architecture et transformation.
 
@@ -220,6 +229,7 @@ Il n’existe pas de standard unique, mais des références fondatrices
 ## Positionnement dans ce projet
 
 Ces cadres sont considérés comme :
+
 - des **réservoirs de concepts**
 - des **sources de vocabulaire**
 - des **points de comparaison**
@@ -228,4 +238,3 @@ Ils ne sont ni exclusifs, ni hiérarchisés, ni imposés.
 
 L’objectif du projet est de travailler **au niveau des artefacts**
 (communs à ces cadres), plutôt qu’au niveau des méthodes elles‑mêmes.
-
