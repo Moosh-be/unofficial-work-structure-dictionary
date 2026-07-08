@@ -37,6 +37,23 @@ Une matrice d'influence / intérêt est couramment utilisée :
 
 ---
 
+## Distinction avec les autres objets liés aux personnes
+
+Le Stakeholder est le plus large des 7 objets liés aux personnes : il inclut **toute personne ou entité concernée**, qu'elle ait un accès au projet ou non :
+
+| Objet | Question | Lien avec le Stakeholder |
+|-------|----------|-------------------------|
+| **Individu** (OBJ-004) | Qui est la personne ? | Un Individu peut être un Stakeholder (mais l'individu se concentre sur l'identité, pas l'influence) |
+| **Member** (OBJ-037) | Qui a un accès interne ? | Tout Member est un Stakeholder, mais un Stakeholder n'est pas Member |
+| **Guest** (OBJ-034) | Qui a un accès externe ? | Tout Guest est un Stakeholder externe, mais l'objet Guest se concentre sur l'accès, pas l'influence |
+| **Group** (OBJ-030) | Qui travaille ensemble ? | Un Group peut être un Stakeholder collectif (ex: "Équipe technique") |
+| **Role** (OBJ-038) | Quelle responsabilité ? | Un Role définit une responsabilité ; un Stakeholder définit un intérêt ou une influence |
+| **Assignation** (OBJ-015) | Qui fait quoi ? | L'Assignation est opérationnelle ; le Stakeholder est stratégique (concerné, pas nécessairement impliqué) |
+
+> Le Stakeholder, c'est toute personne concernée par le projet, qu'elle ait un accès ou non. L'Individu, c'est l'identité. Le Member/Guest, c'est l'accès. Le Role, c'est la responsabilité.
+
+---
+
 ## Principe
 
 > Mieux vaut trop communiquer avec les stakeholders que pas assez.
