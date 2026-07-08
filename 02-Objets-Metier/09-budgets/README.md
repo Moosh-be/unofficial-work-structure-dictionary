@@ -26,6 +26,18 @@ Un budget peut être décomposé en :
 
 ---
 
+## Distinction avec les Costs (OBJ-033)
+
+Le Budget et les Costs sont les deux faces du suivi financier, mais ils ne mesurent pas la même chose :
+
+- **Budget (OBJ-009)** = l'**enveloppe prévue**. C'est le prévisionnel, le cadre alloué. On y définit ce qu'on *compte* dépenser, par catégorie. C'est le **estimé**.
+- **Costs (OBJ-033)** = la **dépense effective**. C'est le réel, ce qui a été dépensé. Chaque Cost est un enregistrement d'une dépense factuelle. C'est le **réalisé**.
+
+> Le budget, c'est ce qu'on prévoit de dépenser. Les Costs, c'est ce qu'on a réellement dépensé.
+> Le pilotage financier consiste à comparer en continu les deux.
+
+---
+
 ## Principe
 
 > Un budget n'est pas une contrainte rigide, mais un outil de pilotage.
