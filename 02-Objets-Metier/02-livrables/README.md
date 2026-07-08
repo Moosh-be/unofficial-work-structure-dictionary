@@ -28,6 +28,15 @@ Les livrables peuvent être classés selon leur nature :
 
 ---
 
+## Principes
+
+Un livrable doit être :
+
+- **Spécifié** clairement dès sa conception
+- **Vérifiable** par des critères objectifs
+- **Accepté** formellement par son commanditaire
+- **Traçable** depuis sa demande initiale jusqu'à sa livraison
+
 ## Normes existantes
 
 - **ISO 21502** — Gestion de projet, traçabilité des livrables
