@@ -38,3 +38,27 @@ Les risques peuvent être classés selon :
 
 > Un risque identifié et géré est un problème évité.
 > Un risque non identifié est une surprise.
+
+---
+
+## Normes existantes
+
+- **ISO 31000** — Management des risques — Principes et lignes directrices
+- **PMBOK® Guide** — Risk management framework (identification, analyse, réponses, monitoring)
+- **ISO 31010** — Techniques d'analyse des risques (matrices, AMDEC, HAZOP, etc.)
+- **PRINCE2** — Risk management approach, risk register, risk response
+- **NIST SP 800-30** — Guide for conducting risk assessments (cybersécurité)
+- **COSO ERM** — Enterprise risk management framework
+
+---
+
+## Outils connus
+
+- **OpenProject** — Risk tracking natif via WorkPackages personnalisés
+- **Jira + Risk Register plugins** — Gestion des risques intégrée au backlog
+- **RiskCloud** — Plateforme dédiée à la gestion des risques
+- **LogicManager** — GRC (Governance, Risk, Compliance)
+- **RiskRegister.app** — Outil simple de registre des risques
+- **RiskWatch** — Gestion des risques entreprise
+- **Spire** — ERM et compliance
+- **RiskyProject** — Gestion des risques projet avec analyse quantitative (Monte Carlo)
