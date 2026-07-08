@@ -37,3 +37,24 @@ Les lessons learned permettent de :
 
 > Un projet sans retour d'expérience est un projet qui gaspille son expérience.
 > Un retour d'expérience non partagé est un retour d'expérience perdu.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Lessons learned register et knowledge management
+- **ISO 21502** — Capitalisation et amélioration continue
+- **PRINCE2** — Lessons practice à chaque étape
+- **ISO 30401** — Knowledge management system standard
+
+---
+
+## Outils connus
+
+- **Confluence** — Base de connaissances et lessons learned
+- **SharePoint** — Capitalisation documentaire
+- **Notion** — Wikis d'équipe et retours d'expérience
+- **OpenProject** — LessonLearned WorkPackage natif
+- **Miro / Mural** — RéTROSpectives visuelles
+- **Retrospectively** — Outil dédié aux rétrospectives agiles
+- **Atlassian Jira + Advanced Roadmaps** — Retraçabilité des leçons apprises
