@@ -36,3 +36,24 @@ Un bon KPI est :
 - **Actionnable** : Il déclenche une action quand il dépasse un seuil
 
 > Un indicateur non suivi est un indicateur inutile.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Performance measurement, SPI, CPI, EVM
+- **ISO 21502** — Indicateurs de suivi de projet
+- **Balanced Scorecard (Kaplan & Norton)** — Framework de pilotage par indicateurs multicritères
+- **OKR (Objectives and Key Results)** — Méthodologie de fixation d'objectifs mesurables
+
+---
+
+## Outils connus
+
+- **OpenProject** — Rapports et tableaux de bord intégrés
+- **Microsoft Power BI** — Visualisation et tableaux de bord KPI
+- **Grafana** — Monitoring en temps réel de KPI
+- **Metabase** — Dashboards analytiques open source
+- **Domo** — Business intelligence et KPIs
+- **Klipfolio** — Dashboards KPI en temps réel
+- **Google Data Studio** — Rapports visuels connectés à Google services
