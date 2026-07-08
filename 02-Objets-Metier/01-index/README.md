@@ -44,3 +44,21 @@ L'index répertorie les objets métier selon une classification numérique :
 ## Utilisation
 
 L'index est un artefact vivant. Il doit être mis à jour à chaque ajout ou modification d'un objet métier.
+
+---
+
+## Normes existantes
+
+- **ISO 21502** — Classification des artefacts de projet
+- **PMBOK® Guide** — Project documents index et registers
+- **Document management standards** — Indexation et métadonnées
+
+---
+
+## Outils connus
+
+- **OpenProject** — Index natif via l'arborescence des objets
+- **Notion** — Database avec relations entre pages
+- **Confluence** — Space index et pages liées
+- **Obsidian** — Graph view pour liens entre artefacts
+- **Logseq** — Index et navigation par liens
