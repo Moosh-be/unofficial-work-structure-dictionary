@@ -39,3 +39,27 @@ Un test case typique contient :
 - **Résultat attendu** : Comportement attendu
 - **Résultat obtenu** : Résultat réel (après exécution)
 - **Statut** : Passé, Échoué, Bloqué, Non exécuté
+
+---
+
+## Normes existantes
+
+- **ISO/IEC/IEEE 29118** — Standard pour le test de logiciels
+- **ISO/IEC/IEEE 29147** — Test case design et traçabilité
+- **ISTQB** — Certified tester syllabus (niveaux Foundation, Advanced)
+- **PMBOK® Guide** — Quality assurance et contrôle qualité via tests
+
+---
+
+## Outils connus
+
+- **TestRail** — Test case management dédié
+- **Zephyr (Jira)** — Gestion de tests dans Jira
+- **qTest (IBM)** — Test management et traçabilité
+- **Selenium** — Automatisation des tests
+- **Cypress** — Tests end-to-end automatisés
+- **Postman** — Tests API
+- **OpenProject** — Bugs et test cases via WorkPackages
+- **Azure DevOps Test Plans** — Test management intégré
+- **Katalon Studio** — Automatisation tests web/mobile
+- **Robot Framework** — Framework de test automatisé open source
