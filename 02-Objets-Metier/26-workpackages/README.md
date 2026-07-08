@@ -57,8 +57,19 @@ Un WorkPackage possède toujours :
 
 ---
 
-## Principe
+## Normes existantes
 
-> Le WorkPackage est le Légo d'OpenProject : tous les éléments du projet sont des briques WorkPackage.
+- **ISO 21502** — Work Breakdown Structure (WBS) et lots de travail
+- **PMBOK® Guide** — Work packages comme élément fondamental du périmètre
+- **PRINCE2** — Work packages comme unités de contrôle du projet
 
-Cette uniformité permet la traçabilité croisée, les rapports unifiés et la simplicité d'utilisation.
+---
+
+## Outils connus
+
+- **OpenProject** — WorkPackages comme entité centrale unifiée
+- **Jira** — Issues / tickets comme équivalent
+- **Azure DevOps** — WorkItems
+- **ClickUp** — Tasks et subtasks
+- **Asana** — Tasks et portfolios
+- **Monday.com** — Items dans des workflows
