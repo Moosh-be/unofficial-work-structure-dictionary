@@ -32,3 +32,23 @@ Un plan de communication couvre :
 > Trop d'information noie. Pas assez d'information aveugle.
 
 L'objectif est la **bonne information, à la bonne personne, au bon moment**.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Project communications management
+- **ISO 21502** — Communication framework pour les projets
+- **PRINCE2** — Communication activity et stakeholder engagement
+- **ISO 31000** — Communication comme partie intégrante du risk management
+
+---
+
+## Outils connus
+
+- **OpenProject** — News, messages et notifications intégrés
+- **Slack / Microsoft Teams** — Communication d'équipe en temps réel
+- **Confluence** — Documentation et communication structurée
+- **SharePoint** — Portail de communication interne
+- **Notion** — Workspace de communication et documentation
+- **Mail / Email** — Communication formelle et traçable
