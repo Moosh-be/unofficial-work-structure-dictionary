@@ -27,6 +27,17 @@ Un plan de communication couvre :
 
 ---
 
+## Distinction avec les News (OBJ-029)
+
+La communication et les News sont complémentaires mais ne jouent pas le même rôle :
+
+- **Communication (OBJ-017)** = le **plan**, le cadre structurel. Il définit les règles, fréquences et canaux *avant* que l'information ne circule. C'est la **régularité**.
+- **News (OBJ-029)** = le **flux**, les messages ponctuels publiés dans le cadre défini par la Communication. C'est l'**événement**.
+
+> La Communication, c'est le protocole postal. Les News, ce sont les lettres qui transitent.
+
+---
+
 ## Principes
 
 > Trop d'information noie. Pas assez d'information aveugle.
