@@ -32,3 +32,24 @@ Les ressources permettent de :
 > L'assignation est l'affectation effective.
 
 Cette séparation permet de gérer la disponibilité indépendamment de l'usage.
+
+---
+
+## Normes existantes
+
+- **ISO 21502** — Lignes directrices pour la gestion de projet
+- **ISO 31000** — Management des risques (liées à l'allocation des ressources de mitigation)
+- **PMI** — Standard for Risk Management (allocation des contingences)
+
+---
+
+## Outils connus
+
+- **Microsoft Project** — Planification et allocation des ressources
+- **Smartsheet** — Suivi des ressources et planning
+- **ClickUp** — Gestion de projet avec suivi des ressources
+- ** monday.com** — Tableau de suivi des capacités
+- **OpenProject** — Gestion des ressources intégré
+- **Jira + Tempo** — Suivi des temps et ressources
+- **Resource Guru** — Outil dédié à la gestion des ressources
+- **Float** — Planification et visibilité des capacités
