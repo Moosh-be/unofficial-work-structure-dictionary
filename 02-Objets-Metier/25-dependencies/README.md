@@ -41,3 +41,23 @@ Les dépendances permettent de :
 
 > Un plan sans dépendances identifiées est un plan illusion.
 > Le chemin critique détermine la durée minimale du projet.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Schedule development et dependencies (FS, SS, FF, SF)
+- **ISO 21502** — Ordonnancement et dépendances
+- **PRINCE2** — Critical path analysis dans le scheduling
+- **PERT (Program Evaluation Review Technique)** — Méthode de gestion des dépendances temporelles
+
+---
+
+## Outils connus
+
+- **OpenProject** — Dépendances WorkPackages + Gantt
+- **Microsoft Project** — Chemin critique et dépendances avancées
+- **Jira + BigGantt** — Dépendances et Gantt
+- **Smartsheet** — Dependencies et crtitical path
+- **Oracle Primavera P6** — Dépendances pour projets complexes
+- **GanttPRO** — Visualisation des dépendances
