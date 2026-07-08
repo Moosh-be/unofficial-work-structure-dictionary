@@ -28,11 +28,19 @@ Les livrables peuvent être classés selon leur nature :
 
 ---
 
-## Principes
+## Normes existantes
 
-Un livrable doit être :
+- **ISO 21502** — Gestion de projet, traçabilité des livrables
+- **PMBOK® Guide** — Definition and control of project deliverables
+- **ISO 9001** — Maîtrise des livrables dans un système qualité
 
-- **Spécifié** clairement dès sa conception
-- **Vérifiable** par des critères objectifs
-- **Accepté** formellement par son commanditaire
-- **Traçable** depuis sa demande initiale jusqu'à sa livraison
+---
+
+## Outils connus
+
+- **Confluence** — Gestion documentaire et livrables
+- **SharePoint** — Centralisation des livrables
+- **OpenProject** — Suivi des livrables
+- **Jira** — Traçabilité des livrables via WorkPackages
+- **Azure DevOps** — Livrables et releases
+- **Asana** — Suivi de l'avancement des livrables
