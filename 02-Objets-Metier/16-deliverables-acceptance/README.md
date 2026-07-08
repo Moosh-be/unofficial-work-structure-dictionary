@@ -39,3 +39,21 @@ L'acceptation permet de :
 ## Principe
 
 > Un livrable non officiellement accepté n'existe pas pour le projet.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Validate Scope process
+- **ISO 9001** — Reçu et acceptation des livrables dans un système qualité
+- **PRINCE2** — Controlled stages et acceptation des produits (product approval)
+
+---
+
+## Outils connus
+
+- **OpenProject** — WorkPackage acceptance states
+- **Jira** — Resolution et transition de workflow vers "Done"
+- **Azure DevOps** — Release approvals et gate
+- **DocuSign / Adobe Sign** — Signatures numériques pour acceptation
+- **SharePoint** — Workflows d'approbation
