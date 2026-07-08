@@ -56,3 +56,23 @@ OpenProject supporte une hiérarchie :
 ## Principe
 
 > Un projet est un projet jusqu'à ce qu'il soit clôturé et archivé.
+
+---
+
+## Normes existantes
+
+- **ISO 21502** — Project lifecycle et closure
+- **PMBOK® Guide** — Project integration management (initiation à clôture)
+- **PRINCE2** — Project lifecycle et stages
+- **PM²** — Project lifecycle européen
+
+---
+
+## Outils connus
+
+- **OpenProject** — Project entity racine native
+- **Jira Projects** — Project containers dans Jira
+- **Azure DevOps Projects** — Project collections
+- **ClickUp** — Spaces et Projects
+- **Asana** — Projects et Portfolios
+- **Monday.com** — Projects et work OS
