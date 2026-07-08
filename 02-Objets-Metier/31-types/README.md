@@ -57,3 +57,21 @@ Chaque type a son propre workflow de statuts :
 
 > Un bon typage rend le projet lisible.
 > Trop de types = confusion. Pas assez = manque de précision.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Classification et catégorisation des deliverables
+- **ISO/IEC 26550** — Classification des exigences et artefacts
+- **ITIL 4** — Service catalog et classification des services
+
+---
+
+## Outils connus
+
+- **OpenProject** — WorkPackage types personnalisables natifs
+- **Jira** — Issue types avec workflows et champs personnalisés
+- **Azure DevOps** — WorkItem types (Bug, Task, Story, etc.)
+- **ClickUp** — Custom status et type de tâches
+- **Asana** — Portfolio item types
