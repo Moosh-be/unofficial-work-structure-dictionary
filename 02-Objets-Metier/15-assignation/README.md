@@ -17,12 +17,30 @@ Les assignations permettent de :
 
 ---
 
-## Distinction fondamentale
+## Distinction importante
 
 > L'assignation n'est ni l'individu, ni le rôle.
 > C'est le lien temporel entre un individu et un rôle.
 
 Même formule : **Qui** (individu) fait **Quoi** (rôle) **Quand** (période).
+
+---
+
+## Normes existantes
+
+- **ISO 21502** — Affectation des rôles et responsabilités
+- **RACI Matrix** — Matrice de répartition des responsabilités (Responsible, Accountable, Consulted, Informed)
+- **PMBOK® Guide** — Resource management and assignments
+
+---
+
+## Outils connus
+
+- **OpenProject** — Assignation nativedans les WorkPackages
+- **Jira** — Assignee field
+- **Microsoft Project** — Resource assignments
+- **Azure DevOps** — Assigné aux work items
+- **Smartsheet** — Assignation dans sheets
 
 ---
 
