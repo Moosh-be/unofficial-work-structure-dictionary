@@ -50,3 +50,24 @@ Les Versions permettent de :
 ## Principe
 
 > Une version sans notes de release est une version incompréhensible.
+
+---
+
+## Normes existantes
+
+- **SemVer (Semantic Versioning 2.0.0)** — Standard de numérotation des versions (Major.Minor.Patch)
+- **PMBOK® Guide** — Release management et configuration management
+- **ITIL 4** — Release management et deployment
+- **ISO/IEC 12207** — Software lifecycle processes et releases
+
+---
+
+## Outils connus
+
+- **OpenProject** — Versions natifs avec WorkPackages associés
+- **GitHub Releases** — Gestion de releases avec tags
+- **GitLab Releases** — Releases intégrées au pipeline
+- **Jira Versions** — Versions/fix versions avec tracking
+- **SemVer tools** — Version automatique via commit messages
+- **Azure DevOps Releases** — Release pipelines avec approvals
+- **Octopus Deploy** — Release management automatisé

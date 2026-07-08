@@ -56,3 +56,21 @@ Cette règle empirique aide à trouver le bon niveau de détail.
 > Le WorkPackage (OBJ-026) est l'**exécution** (le ticket de travail réel).
 
 Le nœud WBS définit le périmètre et l'estimation. Le WorkPackage porte les données opérationnelles (assignation, temps passé, commentaires, etc.).
+
+---
+
+## Normes existantes
+
+- **ISO 21502** — Work Breakdown Structure (WBS)
+- **PMBOK® Guide** — Create WBS process, scope baseline
+- **PRINCE2** — Products breakdown structure (PBS)
+
+---
+
+## Outils connus
+
+- **OpenProject** — WBS nodes natifs avec roll-up
+- **Microsoft Project** — WBS intégré et calculé
+- **Smartsheet** — WBS via arborescence et formulas
+- **Jira** — Epic → Story → Task → Subtask comme WBS alternatif
+- **Oracle Primavera P6** — WBS pour projets complexes

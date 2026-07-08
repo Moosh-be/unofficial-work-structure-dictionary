@@ -52,3 +52,23 @@ Les Time Entries sont utilisées pour :
 
 > Un temps non saisi est un temps perdu pour le projet.
 > Un temps non vérifié est un temps suspect.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Estimate activity durations et resource estimation
+- **ISO 21502** — Suivi du temps comme indicateur de performance
+- **ISTAT** — Standards de comptabilité du temps dans la R&D
+
+---
+
+## Outils connus
+
+- **OpenProject** — Time entries natifs dans les WorkPackages
+- **Clockify** — Time tracking gratuit
+- **Toggl Track** — Suivi du temps simplifié
+- **Jira + Tempo** — Saisie de temps intégrée
+- **Harvest** — Time tracking et facturation
+- **RescueTime** — Suivi automatique du temps
+- **Microsoft Timesheet** — Feuille de temps dans MS Project / Dynamics

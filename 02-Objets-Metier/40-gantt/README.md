@@ -53,3 +53,23 @@ Un diagramme de Gantt contient :
 
 > Un Gantt sans dépendances est un tableau de dates.
 > Un Gantt non mis à jour est un Gantt faux.
+
+---
+
+## Normes existantes
+
+- **PMBOK® Guide** — Schedule development et critical path method
+- **ISO 21502** — Planning et sequencing avec Gantt
+- **PERT (Program Evaluation Review Technique)** — Méthode de planning
+- **PRINCE2** — Planning techniques et Gantt
+
+---
+
+## Outils connus
+
+- **OpenProject** — Gantt natif avec dépendances
+- **Microsoft Project** — Référence pour diagrammes de Gantt
+- **GanttPRO** — Outil dédié aux Gantt
+- **Smartsheet** — Gantt dans sheet
+- **Jira + BigGantt** — Gantt pour Jira
+- **TeamGantt** — Collaborative Gantt planning

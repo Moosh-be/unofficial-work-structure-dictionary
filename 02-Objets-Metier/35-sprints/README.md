@@ -49,3 +49,21 @@ Les Sprints permettent de :
 
 > Un sprint sans objectif clair est un sprint perdu.
 > Une vélocité non suivie est une vélocité ignorée.
+
+---
+
+## Normes existantes
+
+- **Scrum Guide** — Sprint definition, planning, review, retrospective
+- **ISO/IEC 12207** — Agile software lifecycle processes
+- **Agile Manifesto** — Principles behind agile sprint cycles
+
+---
+
+## Outils connus
+
+- **OpenProject** — Sprints natifs avec burndown tracking
+- **Jira** — Scrum boards et sprint management
+- **Azure DevOps** — Sprints dans Boards
+- **ClickUp** — Sprints et goals
+- **Linear** — Sprint management pour équipes produit
