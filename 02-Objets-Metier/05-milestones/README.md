@@ -36,3 +36,22 @@ Un jalon est :
 - Livraison bêta
 - Mise en production
 - Clôture du projet
+
+---
+
+## Normes existantes
+
+- **PMI** — Gestion des jalons dans le planning projet
+- **PRINCE2** — Management by stages (jalons par étape)
+- **ISO 21502** — Repères temporels dans la gestion de projet
+
+---
+
+## Outils connus
+
+- **Microsoft Project** — Jalons dans diagramme de Gantt
+- **OpenProject** — Milestones natifs
+- **Jira** — Versions/Releases comme jalons
+- **Asana** — Custom fields pour jalons
+- **GanttPRO** — Visualisation avancée des jalons
+- **Smartsheet** — Jalons dans sheet et Gantt
