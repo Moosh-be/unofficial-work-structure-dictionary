@@ -40,3 +40,23 @@ Chaque quality gate est :
 ## Principe
 
 > Un quality gate n'est pas une formalité. C'est une assurance.
+
+---
+
+## Normes existantes
+
+- **CMMI** — Appraisal levels et stages de maturité avec gates
+- **ISO 9001** — Points de contrôle qualité dans un processus
+- **PMBOK® Guide** — Quality assurance et control gates
+- **PRINCE2** — Highlight reports et management by exception avec gates
+- **ITIL 4** — Service validation et testing transitions
+
+---
+
+## Outils connus
+
+- **OpenProject** — Quality gates via WorkPackage status et workflows
+- **Jenkins / GitLab CI** — Gates automatisés dans les pipelines CI/CD
+- **Azure DevOps** — Stage approvals et gates
+- **Tuleap** — Quality gates dans le cycle de développement
+- **Sparx Enterprise Architect** — Gates d'architecture
