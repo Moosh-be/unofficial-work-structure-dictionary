@@ -47,3 +47,25 @@ Les incidents permettent de :
 
 > Un incident non analysé se reproduira.
 > Un incident analysé sans correction est une leçon perdue.
+
+---
+
+## Normes existantes
+
+- **ISO 31000** — Gestion des risques liés aux incidents
+- **ITIL 4** — Incident management et problem management
+- **PMBOK® Guide** — Risk and issue management
+- **ISO 27001 / 27035** — Information security incident management
+- **NIST SP 800-61** — Computer security incident handling guide
+
+---
+
+## Outils connus
+
+- **OpenProject** — Incidents via WorkPackages
+- **Jira Service Management** — Incident management et ITSM
+- **ServiceNow** — IT incident management enterprise
+- **PagerDuty** — Incident response et on-call management
+- **Opsgenie (Atlassian)** — Alerting et incident management
+- **Datadog Incident Management** — Monitoring et gestion d'incidents
+- **Sentry** — Error tracking et incident detection
