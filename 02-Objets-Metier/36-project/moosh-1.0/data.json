@@ -1,0 +1,33 @@
+{
+  "id_project": "",
+  "nom": "",
+  "description": "",
+  "status": "",
+  "type": "",
+  "parent_id": "",
+  "responsable_id": "",
+  "date_debut": "",
+  "date_fin": "",
+  "budget_total": null,
+  "devise": "",
+  "is_public": false,
+  "created_on": "",
+  "updated_on": "",
+  "config": {
+    "work_package_types": [],
+    "workflows": {},
+    "custom_fields": [],
+    "gantt_enabled": null,
+    "time_tracking_enabled": null,
+    "cost_tracking_enabled": null,
+    "news_enabled": null,
+    "sprint_enabled": null
+  },
+  "health": {
+    "spend_variance_pct": null,
+    "schedule_variance_pct": null,
+    "open_risks": null,
+    "closed_work_packages_pct": null,
+    "team_satisfaction": null
+  }
+}
