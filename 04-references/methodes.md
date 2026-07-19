@@ -6,19 +6,19 @@ Méthodes et cadres méthodologiques référencés ou analysés dans le Work Str
 
 | Méthode | Lien | Objets couverts | Relation avec la norme |
 |---------|------|-----------------|----------------------|
-| **PMBOK Guide** (PMI) | [pmi.org/pmbok](https://www.pmi.org/pmbok-guide) | WorkPackages, Decisions, Risks, Budgets, Milestones, Stakeholders, Resources | Références nombreuses, mapping possible par objet |
-| **PM²** (EU) | [ec.europa.eu/isa2/pm2](https://www.ec.europa.eu/isa2/pm2) | WorkPackages, Decisions, Risks, Budgets, Milestones, Deliverables, QualityGates | Méthode de l'UE, contexte "eu" |
+| **PMBOK Guide** (PMI) | [pmi.org/pmbok](https://www.pmi.org/pmbok-guide) | Project, WorkPackages, Decisions, Risks, Budgets, Milestones, Stakeholders, Resources, Assignation | Références nombreuses, mapping possible par objet |
+| **PM²** (EU) | [ec.europa.eu/isa2/pm2](https://www.ec.europa.eu/isa2/pm2) | Project, WorkPackages, Decisions, Risks, Budgets, Milestones, Deliverables, QualityGates, Assignation | Méthode de l'UE, contexte "eu" |
 | **PAM²** (EU) | [ec.europa.eu/isa2](https://www.ec.europa.eu/isa2) | Programmes, Governance, Decisions, Budgets | Hybridation projet/agilité |
 | **PgM²** (EU) | [ec.europa.eu/isa2](https://www.ec.europa.eu/isa2) | Programmes, Stakeholders, Decisions, Governance | Gestion de programmes |
 | **PfM²** (EU) | [ec.europa.eu/isa2](https://www.ec.europa.eu/isa2) | Portefeuille, Decisions, Governance, Budgets | Gestion de portefeuilles |
-| **PRINCE2** | [axelos.com/Prince2](https://axelos.com/certifications/prince2) | WorkPackages, Decisions, Risks, Budgets, Milestones, Roles | Méthode classique |
+| **PRINCE2** | [axelos.com/Prince2](https://axelos.com/certifications/prince2) | Project, WorkPackages, Decisions, Risks, Budgets, Milestones, Roles | Méthode classique |
 
 ## Agilité
 
 | Méthode | Lien | Objets couverts | Relation avec la norme |
 |---------|------|-----------------|----------------------|
 | **Scrum** | [scrumguides.org](https://scrumguides.org/) | WorkPackages, Sprints, Tasks, Incidents, Requirements, TestCases | Cadre agile, mapping par objet |
-| **SAFe** | [scalingagile.eu](https://www.scaledagileframework.com/) | WorkPackages, Sprints, Tasks, Requirements, Milestones, Dependencies | Contexte "safer" |
+| **SAFe** | [scaledagileframework.com](https://www.scaledagileframework.com/) | WorkPackages, Sprints, Tasks, Requirements, Milestones, Dependencies | Contexte "safer" |
 | **Lean** | [leankcs.org](https://leankcs.org/) | Tasks, Waste, ContinuousImprovement, KPI | Philosophie de réduction du gaspillage |
 | **Kanban** | [kanbanmethod.com](https://www.kanbanmanagement.com/) | Tasks, WorkPackages, KPI | Visualisation et flux |
 
@@ -33,13 +33,14 @@ Méthodes et cadres méthodologiques référencés ou analysés dans le Work Str
 
 | Méthode | Lien | Objets couverts | Relation avec la norme |
 |---------|------|-----------------|----------------------|
-| **TOGAF** | [togafframework.com](https://www.opengroup.org/togaf) | Architecture, ConfigurationItems, Decisions, Documents | Cadre d'architecture d'entreprise |
+| **TOGAF** | [opengroup.org/togaf](https://www.opengroup.org/togaf) | Architecture, ConfigurationItems, Decisions, Documents | Cadre d'architecture d'entreprise |
 | **ADKAR** | [prosci.com/adkar](https://www.prosci.com/adkar) | ChangeRequests, Communication, Training, KPI | Modèle de management du changement |
 
 ## Contextes
 
 Chaque méthode peut être un contexte : `03-analyses/04-contextes/`.
 
+- `moosh/` — Contexte auteur (approche terrain)
 - `pmi/` — Contexte PMI (PMBOK)
 - `eu/` — Contexte EU (PM²)
 - `safer/` — Contexte SAFe
