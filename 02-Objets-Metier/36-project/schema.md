@@ -4,24 +4,30 @@
 
 Cet objet représente le projet racine. Il encode les métadonnées, la hiérarchie, la configuration et la santé du projet.
 
+Le but de cet objet est de permettre 
+* son identification
+* ses paramètres de fonctionnement interne
+* ses propriétés pour son appartenance à une collection (portefeuille, programme, domaine, ...)
+* ses relations
+
 ## 2. Dictionnaire des attributs
 
-| Nom du champ | Type | Obligatoire | Description |
-| :--- | :--- | :--- | :--- |
-| `id_project` | UUID | Oui | Identifiant unique du projet. |
-| `nom` | String | Oui | Nom du projet. |
-| `description` | Text | Non | Description détaillée. |
-| `status` | Enum | Oui | État (`Draft`, `Active`, `On Hold`, `Closed`, `Archived`). |
-| `type` | Enum | Oui | Type (`Projet`, `Programme`, `Portfolio`). |
-| `parent_id` | UUID | Non | Projet parent (null si racine). |
-| `responsable_id` | UUID | Oui | Personne responsable (Project Manager). |
-| `date_debut` | Date | Non | Date de début planifiée. |
-| `date_fin` | Date | Non | Date de fin planifiée. |
-| `budget_total` | Number | Non | Budget prévisionnel total. |
-| `devise` | String | Non | Devise du budget (EUR, USD, etc.). |
-| `is_public` | Boolean | Non | Projet visible publiquement. |
-| `created_on` | Date/Time | Oui | Date de création. |
-| `updated_on` | Date/Time | Oui | Dernière modification. |
+| Nom du champ     | Type      | Obligatoire | Description                                                |
+| :--------------- | :-------- | :---------- | :--------------------------------------------------------- |
+| `id_project`     | UUID      | Oui         | Identifiant unique du projet.                              |
+| `nom`            | String    | Oui         | Nom du projet.                                             |
+| `description`    | Text      | Non         | Description détaillée.                                     |
+| `status`         | Enum      | Oui         | État (`Draft`, `Active`, `On Hold`, `Closed`, `Archived`). |
+| `type`           | Enum      | Oui         | Type (`Projet`, `Programme`, `Portfolio`).                 |
+| `parent_id`      | UUID      | Non         | Projet parent (null si racine).                            |
+| `responsable_id` | UUID      | Oui         | Personne responsable (Project Manager).                    |
+| `date_debut`     | Date      | Non         | Date de début planifiée.                                   |
+| `date_fin`       | Date      | Non         | Date de fin planifiée.                                     |
+| `budget_total`   | Number    | Non         | Budget prévisionnel total.                                 |
+| `devise`         | String    | Non         | Devise du budget (EUR, USD, etc.).                         |
+| `is_public`      | Boolean   | Non         | Projet visible publiquement.                               |
+| `created_on`     | Date/Time | Oui         | Date de création.                                          |
+| `updated_on`     | Date/Time | Oui         | Dernière modification.                                     |
 
 ## 3. Configuration du projet (JSON)
 

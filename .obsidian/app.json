@@ -1,0 +1,29 @@
+{
+  "always-preview-html": false,
+  "autoConvertHtml": false,
+  "defaultViewType": "source",
+  "highlightOnMouseover": true,
+  "livePreview": true,
+  "strictLineBreaks": false,
+  "showFrontmatter": true,
+  "readableLineLength": true,
+  "enableFrontmatter": true,
+  "lineCount": true,
+  "spellcheck": true,
+  "attachmentFolderPath": "./assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "./02-Objets-Metier",
+  "alwaysParseAsMath": false,
+  "autoLinkTitles": true,
+  "convertImageSyntax": true,
+  "fold-heading": "false",
+  "fold-frontmatter": "false",
+  "show-line-numbers": false,
+  "useTab": false,
+  "spellcheckLanguages": [
+    "fr",
+    "en"
+  ],
+  "showLineNumber": false,
+  "transition-speed": "none"
+}

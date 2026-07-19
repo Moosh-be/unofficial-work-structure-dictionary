@@ -1,0 +1,18 @@
+{
+  "id_risk": "",
+  "titre": "",
+  "description": "",
+  "categorie": "",
+  "probabilite": "",
+  "impact": "",
+  "score": null,
+  "plan_reponse": "",
+  "plan_action": "",
+  "responsable": "",
+  "statut": "",
+  "date_creation": "",
+  "date_revison": "",
+  "date_reelle_survenance": "",
+  "contingence_budget": null,
+  "devise": ""
+}

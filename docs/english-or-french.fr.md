@@ -1,6 +1,6 @@
 # English or French ?
 
-## Langue de travail (situationé,## Langue de travail (situation actuelle)
+## Langue de travail (situation actuelle)
 - être adopté ou adapté au‑delà de son contexte initial,
 
 alors l’anglais deviendra la langue de référence, au moins en parallèle.

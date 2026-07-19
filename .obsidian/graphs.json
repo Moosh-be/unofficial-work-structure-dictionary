@@ -1,0 +1,75 @@
+{
+  "show-inline-title": true,
+  "show-graph-outline": true,
+  "graph": {
+    "collapse-filter": true,
+    "search": "",
+    "showTags": false,
+    "showAttachments": false,
+    "hideUnresolved": false,
+    "collapse-display": true,
+    "arrowSize": 3,
+    "tileShape": 4,
+    "collapse-color-groups": true,
+    "colorGroups": [
+      {
+        "query": "path:00-manifeste",
+        "color": {
+          "a": 1,
+          "rgb": 14622577
+        }
+      },
+      {
+        "query": "path:01-normes-communes",
+        "color": {
+          "a": 1,
+          "rgb": 12829237
+        }
+      },
+      {
+        "query": "path:02-Objets-Metier/01",
+        "color": {
+          "a": 1,
+          "rgb": 11480334
+        }
+      },
+      {
+        "query": "path:02-Objets-Metier/0[2-9]",
+        "color": {
+          "a": 1,
+          "rgb": 8398056
+        }
+      },
+      {
+        "query": "path:02-Objets-Metier/1[0-9]",
+        "color": {
+          "a": 1,
+          "rgb": 9471004
+        }
+      },
+      {
+        "query": "path:02-Objets-Metier/2[0-9]",
+        "color": {
+          "a": 1,
+          "rgb": 10526789
+        }
+      },
+      {
+        "query": "path:02-Objets-Metier/3[0-9]",
+        "color": {
+          "a": 1,
+          "rgb": 12061968
+        }
+      }
+    ],
+    "colorBacklinks": true,
+    "collapse-lines": true,
+    "lines": "graph",
+    "depth": 1,
+    "parent-depth": 4,
+    "link-opacity": 39,
+    "show-scale": false,
+    "opacity": 1,
+    "collapse-content-folders": true
+  }
+}

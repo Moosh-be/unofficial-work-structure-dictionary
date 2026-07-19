@@ -1,6 +1,6 @@
 # English or French?
 
-## Working language (current state it is my everyday working language,## Working language (current state)
+## Working language (current state)
 - it is the language in which I think and write with the most precision,
 - it also reflects my current professional context.
 
