@@ -20,6 +20,4 @@ Cette section définit les **standards transversaux** qui s'appliquent à tous l
 - Rôles communs
 - Liens croisés entre objets
 
-## Statut
 
-Tous les fichiers sont actuellement vides. C'est une section en construction.
