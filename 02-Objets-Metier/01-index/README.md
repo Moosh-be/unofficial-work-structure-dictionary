@@ -38,6 +38,39 @@ L'index répertorie les objets métier selon une classification numérique :
 | OBJ-013 | Requirements | Besoins et exigences |
 | OBJ-014 | Calendar | Calendrier |
 | OBJ-015 | Assignation | Attribution des rôles |
+| OBJ-016 | Deliverable Acceptance | Acceptation des livrables |
+| OBJ-017 | Communication | Communications projet |
+| OBJ-018 | Change Requests | Demandes de changement |
+| OBJ-019 | Quality Gates | Portes qualité |
+| OBJ-020 | Procurement | Achats et approvisionnements |
+| OBJ-021 | Configuration Items | Éléments de configuration |
+| OBJ-022 | Incidents | Incidents projet |
+| OBJ-023 | Lessons Learned | Retours d'expérience |
+| OBJ-024 | WBS Nodes | Nœuds de l'arbre des lots de travail |
+| OBJ-025 | Dependencies | Dépendances entre tâches |
+| OBJ-026 | WorkPackages | Lots de travail |
+| OBJ-027 | Time Entries | Entrées de temps |
+| OBJ-028 | Versions | Versions d'artefacts |
+| OBJ-029 | News | Actualités projet |
+| OBJ-030 | Groups | Groupes d'accès |
+| OBJ-031 | Types | Types d'artefacts |
+| OBJ-032 | Files | Fichiers joints |
+| OBJ-033 | Costs | Coûts projet |
+| OBJ-034 | Guests | Invités |
+| OBJ-035 | Sprints | Sprints agiles |
+| OBJ-036 | Project | Projet racine |
+| OBJ-037 | Members | Membres de projet |
+| OBJ-038 | Roles | Rôles d'accès |
+| OBJ-039 | Queries | Requêtes personnalisées |
+| OBJ-040 | Gantt | Diagrammes Gantt |
+| OBJ-041 | Reports | Rapports de pilotage |
+| OBJ-042 | Sources de Données | Sources de données externes |
+| OBJ-043 | Ressources | Ressources projet |
+| OBJ-044 | Équipes | Équipes projet |
+| OBJ-045 | Portfolio | Portefeuilles de projets |
+| OBJ-046 | Capacity View | Vue capacity analytique (sur assignation) — pas un registre |
+| OBJ-047 | Availability | Congés et indisponibilités |
+| OBJ-048 | Changelog | Historique des changements d'artefacts |
 
 ---
 

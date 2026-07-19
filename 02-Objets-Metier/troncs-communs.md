@@ -36,6 +36,8 @@ C'est le tronc le plus répandu. Presque tous les objets de suivi partagent cett
 | OBJ-003 Decision | `titre` | `description` | `statut` | — | `acteur_id` | `date_creation` |
 | OBJ-020 Procurement | `titre` | — | `statut` | — | `responsable_achat` | `date_signature`, `date_debut`, `date_fin` |
 | OBJ-023 Lesson Learned | `titre` | `description` | — | — | `auteur` | `date_capture` |
+| OBJ-045 Portfolio | `titre` | `description` | `statut` | — | `responsable` | `date_creation`, `date_mise_a_jour` |
+| OBJ-048 Changelog | `titre` | `description` | — | — | `auteur` | `date_changement`, `date_creation` |
 
 ### Champs du tronc commun
 
@@ -129,6 +131,7 @@ Tous les objets liés aux acteurs humains partagent des mécanismes d'identifica
 | OBJ-038 Role | `nom` | — | — | — | — | `permissions`, `competences_requises` |
 | OBJ-030 Group | `nom` | — | — | `type` | — | `permissions` (JSON) |
 | OBJ-015 Assignment | — | — | — | `role` | `date_debut`, `date_fin` | `pourcentage`, `competences_apportees` |
+| OBJ-047 Availability | `person_id` | — | — | — | `date_debut`, `date_fin` | — |
 
 ### Champs du tronc commun
 
@@ -462,7 +465,7 @@ Quand on reçoit des données externes :
 
 | Tronc | Objets couverts | Champs clés |
 |-------|----------------|-------------|
-| **EntitéVie** | WorkPackage, Risk, Incident, ChangeRequest, Requirement, TestCase, Decision, Procurement, LessonLearned | titre, description, statut, priorite, responsable, dates |
+| **EntitéVie** | WorkPackage, Risk, Incident, ChangeRequest, Requirement, TestCase, Decision, Procurement, LessonLearned, Portfolio, Changelog | titre, description, statut, priorite, responsable, dates |
 | **EvenementTemporalise** | Milestone, QualityGate, Version, DeliverableAcceptance | date_planifiee, date_reelle, phase, resultat |
 | **Acteur** | Individu, Member, Guest, Role, Group, Assignment | identite, organisation, role, permissions, dates_acces |
 | **Artefact** | Livrable, Document, File, ConfigItem | titre, version, stockage, proprietaire |

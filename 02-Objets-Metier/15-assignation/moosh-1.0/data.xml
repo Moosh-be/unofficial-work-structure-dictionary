@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Assignation>
+  <Ressource></Ressource>
+  <Workpackage></Workpackage>
+  <Date debut></Date debut>
+  <Heure></Heure>
+  <Date fin></Date fin>
+  <Heure fin></Heure fin>
+  <Role></Role>
+  <Charge></Charge>
+  <Source></Source>
+  <_LABEL></_LABEL>
+</Assignation>

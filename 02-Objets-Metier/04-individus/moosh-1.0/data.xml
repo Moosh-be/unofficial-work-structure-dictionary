@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Individu>
+  <id_individu></id_individu>
+  <nom></nom>
+  <rbs></rbs>
+  <remarque></remarque>
+  <implication_defaut></implication_defaut>
+  <source></source>
+  <_label></_label>
+</Individu>
