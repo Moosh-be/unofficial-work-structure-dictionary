@@ -10,7 +10,9 @@ Cet objet représente un rôle fonctionnel dans le projet. Il encode la définit
 | :--- | :--- | :--- | :--- |
 | `id_role` | UUID | Oui | Identifiant unique du rôle. |
 | `nom` | String | Oui | Nom du rôle (ex: Project Manager, Tech Lead). |
+| `code` | String | Oui | Identifiant court du rôle (ex: PM, TL). |
 | `description` | Text | Oui | Description des responsabilités du rôle. |
+| `url_documentation` | String | Non | URL vers la documentation du rôle (wiki, Confluence, etc.). |
 | `niveau` | Enum | Oui | Niveau hiérarchique (`Decision`, `Management`, `Execution`, `Support`). |
 | `statut` | Enum | Oui | État (`Defined`, `Assigned`, `Unassigned`, `Archived`). |
 | `competences_requises` | Text | Non | Compétences nécessaires pour le rôle. |

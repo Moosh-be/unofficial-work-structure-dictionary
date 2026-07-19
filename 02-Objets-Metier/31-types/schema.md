@@ -9,10 +9,13 @@ Cet objet représente un type de WorkPackage. Il encode la définition, le workf
 | Nom du champ | Type | Obligatoire | Description |
 | :--- | :--- | :--- | :--- |
 | `id_type` | UUID | Oui | Identifiant unique du type. |
-| `nom` | String | Oui | Nom du type. |
-| `description` | Text | Non | Description du type. |
+| `nom` | String | Oui | Nom du type (ex: Tâche, Epic, Feature, Sous-tâche). |
+| `explication` | Text | Oui | Explication détaillée du type et de son usage. |
+| `type_parent` | UUID | Non | Type parent dans la hiérarchie des types (null = racine). |
+| `description` | Text | Non | Description complémentaire. |
 | `is_in_gantt` | Boolean | Non | Visible dans le diagramme de Gantt. |
 | `is_in_progress` | Boolean | Non | Apparaît dans le suivi de progression. |
+| `couleur_defaut` | String | Non | Couleur par défaut (hex: `#FF5733`). |
 | `created_on` | Date/Time | Oui | Date de création. |
 | `updated_on` | Date/Time | Oui | Dernière modification. |
 

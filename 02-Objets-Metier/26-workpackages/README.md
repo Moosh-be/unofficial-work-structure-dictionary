@@ -17,24 +17,26 @@ Le WorkPackage permet de :
 
 ## Types de WorkPackages
 
-OpenProject supporte plusieurs types de work packages :
+Les WorkPackages peuvent prendre les types suivants :
 
-| Type | Description |
-|------|-------------|
-| **Task** | Tâche de travail classique |
-| **Milestone** | Jalon du projet |
-| **Phase** | Phase majeure (réutilisé comme nœud WBS) |
-| **Milestone** | Jalon |
-| **Milestone** | Jalon de phase |
-| **Milestone** | Jalon de projet |
-| **Requirement** | Besoin ou exigence |
-| **Change Request** | Demande de changement |
-| **Cost** | Dépense |
-| **Document** | Document lié |
-| **Bug** | Bug ou défaut |
-| **Time Entry** | Saisie de temps |
+| Type | Description | Hiérarchie |
+|------|-------------|------------|
+| **Programme** | Ensemble de projets liés | Racine |
+| **Projet** | Unité de gestion principale | Enfant de Programme |
+| **Produit** | Livrable principal | Enfant de Programme/Projet |
+| **Domaine** | Thème fonctionnel | Enfant de Programme |
+| **Epic** | Grande feature (agile) | Enfant de Projet/Domaine |
+| **Feature** | Fonctionnalité | Enfant d'Epic |
+| **Tâche** | Travail de développement | Enfant de Feature/Epic |
+| **Sous-tâche** | Tâche imbriquée | Enfant de Tâche |
+| **Milestone** | Jalon du projet | Racine/Projet |
+| **Phase** | Phase majeure | Enfant de Projet |
+| **Requirement** | Besoin ou exigence | Enfant de Feature |
+| **Change Request** | Demande de changement | Racine |
+| **Bug** | Anomalie ou défaut | Enfant de Feature/Tâche |
 
 > Tous ces types partagent les mêmes métadonnées : statut, priorité, responsable, dates, relations, temps passé, etc.
+> La couleur et la hiérarchie (wp_parent) permettent de visualiser la structure dans les outils.
 
 ---
 
@@ -54,6 +56,41 @@ Un WorkPackage possède toujours :
 - Des **relations** (dépendances, liens)
 - Des **versions** associées
 - Des **fichiers** joints
+- Des **relations** (dépendances, liens)
+- Des **couleurs** de catégorisation visuelle
+- Une **hiérarchie** (wp_parent) permettant une arborescence multi-niveaux
+
+---
+
+## Hiérarchie des WorkPackages
+
+Un WorkPackage peut avoir un parent (wp_parent), permettant une structure en arbre :
+
+```
+Programme
+├── Projet Alpha
+│   ├── Epic A
+│   │   ├── Feature A1
+│   │   │   ├── Tâche A1.1
+│   │   │   └── Tâche A1.2
+│   │   └── Feature A2
+│   └── Epic B
+└── Projet Beta
+    └── Feature B1
+```
+
+> La hiérarchie (wp_parent) permet de suivre l'avancement en cascade : un Epic n'est terminé que si toutes ses Features le sont.
+
+---
+
+## Cycle de vie d'un WorkPackage
+
+1. **New** : WorkPackage créé, non démarré
+2. **In Progress** : Travail en cours
+3. **Pending** : En attente d'une dépendance ou décision
+4. **Closed** : WorkPackage terminé
+5. **Rejected** : WorkPackage refusé (Change Request)
+6. **Timed Out** : WorkPackage expiré (délai dépassé)
 
 ---
 

@@ -9,26 +9,27 @@ Cet objet représente l'entité universelle de travail d'OpenProject. Il unifie 
 | Nom du champ | Type | Obligatoire | Description |
 | :--- | :--- | :--- | :--- |
 | `id_workpackage` | UUID | Oui | Identifiant unique du WorkPackage. |
-| `subject` | String | Oui | Titre/sujet du WorkPackage. |
-| `description` | Text | Non | Description détaillée. |
-| `type` | Enum | Oui | Type (`Task`, `Milestone`, `Phase`, `Requirement`, `Change Request`, `Cost`, `Bug`, `Time Entry`, `Document`). |
+| `nom` | String | Oui | Nom du WorkPackage. |
+| `subject` | String | Non | Titre/sujet court (alias de nom). |
+| `description` | Text | Non | Champs descriptif détaillé. |
+| `type_wp` | Enum | Oui | Type de workpackage (`Programme`, `Projet`, `Produit`, `Domaine`, `Epic`, `Feature`, `Tâche`, `Sous-tâche`, `Bug`, `Requirement`, `Milestone`, `Phase`). |
+| `wp_parent` | UUID | Non | WorkPackage parent (reporting). |
+| `couleur` | String | Non | Couleur associée (hex: `#FF5733`). |
+| `responsable_id` | UUID | Oui | Responsable du WorkPackage (OBJ-004). |
 | `status` | Enum | Oui | État (`New`, `In Progress`, `Pending`, `Closed`, `Rejected`, `Timed Out`). |
 | `priority` | Enum | Oui | Priorité (`Low`, `Medium`, `High`, `Very High`, `Immediate`). |
 | `category` | String | Non | Catégorie de classification. |
-| `assigned_to` | UUID | Oui | Personne assignée. |
-| `reporting_to` | UUID | Non | WorkPackage parent (reporting). |
+| `assigned_to` | UUID | Non | Personne assignée. |
 | `created_on` | Date/Time | Oui | Date de création. |
 | `updated_on` | Date/Time | Oui | Dernière modification. |
 | `done_by` | Date/Time | Non | Date de clôture. |
 | `scheduled_start` | Date | Non | Date de début planifiée. |
 | `scheduled_end` | Date | Non | Date de fin planifiée. |
-| `created_on` | Date/Time | Oui | Date effective de création. |
-| `updated_on` | Date/Time | Oui | Date effective de mise à jour. |
 | `done` | Date/Time | Non | Date effective de clôture. |
 | `budget` | Number | Non | Budget estimé (coût). |
 | `auto_estimate` | Boolean | Non | Estimation automatique activée. |
 | `freeze_dates` | Boolean | Non | Dates figées (empêche les modifications). |
-| `lock_version` | Integer | Oui | Version pour verrouillage optimiste. |
+| `lock_version` | Integer | Non | Version pour verrouillage optimiste. |
 | `identifier` | String | Non | Identifiant court (ex: WP-123). |
 
 ## 3. Champs personnalisés
