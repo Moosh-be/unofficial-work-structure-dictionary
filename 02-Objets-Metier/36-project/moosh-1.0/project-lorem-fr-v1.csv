@@ -1,0 +1,2 @@
+id_project,nom,description,status,type,parent_id,responsable_id,date_debut,date_fin,budget_total,devise,is_public,created_on,updated_on
+a1b2c3d4-e5f6-7890-abcd-ef1234567890,"Projet Phoenix","Refonte complète de la plateforme de gestion de projets et migration vers un environnement cloud hybride. Ce projet vise à moderniser l'infrastructure existante tout en assurant la continuité des opérations pendant la transition.","Active","Projet","","b2c3d4e5-f6a7-8901-bcde-f12345678901",2026-01-15,2026-12-31,850000.00,EUR,false,2025-11-20T09:30:00+01:00,2026-07-10T14:22:00+01:00

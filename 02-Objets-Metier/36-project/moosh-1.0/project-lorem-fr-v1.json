@@ -1,0 +1,38 @@
+{
+  "id_project": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+  "nom": "Projet Phoenix",
+  "description": "Refonte complète de la plateforme de gestion de projets et migration vers un environnement cloud hybride. Ce projet vise à moderniser l'infrastructure existante tout en assurant la continuité des opérations pendant la transition.",
+  "status": "Active",
+  "type": "Projet",
+  "parent_id": "",
+  "responsable_id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+  "date_debut": "2026-01-15",
+  "date_fin": "2026-12-31",
+  "budget_total": 850000.00,
+  "devise": "EUR",
+  "is_public": false,
+  "created_on": "2025-11-20T09:30:00+01:00",
+  "updated_on": "2026-07-10T14:22:00+01:00",
+  "config": {
+    "work_package_types": ["Task", "Milestone", "Requirement", "Bug", "Investigation"],
+    "workflows": {
+      "Task": ["New", "In Progress", "Code Review", "Testing", "Closed"],
+      "Bug": ["New", "In Progress", "Fixed", "Verified", "Closed"],
+      "Milestone": ["Planned", "In Progress", "Achieved", "Missed"],
+      "Investigation": ["Open", "Analyzed", "Resolved", "Closed"]
+    },
+    "custom_fields": ["priority", "category", "effort", "sprint"],
+    "gantt_enabled": true,
+    "time_tracking_enabled": true,
+    "cost_tracking_enabled": true,
+    "news_enabled": true,
+    "sprint_enabled": true
+  },
+  "health": {
+    "spend_variance_pct": -4.3,
+    "schedule_variance_pct": 2.8,
+    "open_risks": 8,
+    "closed_work_packages_pct": 43.2,
+    "team_satisfaction": 3.8
+  }
+}
