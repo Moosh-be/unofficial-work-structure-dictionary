@@ -25,14 +25,14 @@ Voir `00-manifeste/valeurs.md` et `00-manifeste/valeurs-en.md` :
 ## Structure du dépôt
 
 ```
-00-manifeste/         → Manifeste, valeurs, principes, conventions
-01-normes-communes/   → Catégories, statuts, priorités, rôles, liens croisés
+00-manifeste/         → Tronc "Vie du repo" — origine, histoire, règles, valeurs, principes, versionnement
+01-normes-communes/   → Tronc "Norme" — éléments transversaux (statuts, priorités, rôles, catégories, liens)
 02-Objets-Metier/     → 41 objets métier (OBJ-001 à OBJ-041), chacun avec README.md + schema.md
                         + troncs-communs.md (troncs partagés entre objets)
-20-nomenclature/      → (vide, réservé)
+03-analyses/          → Tronc "Analyses" — philosophie, pédagogie, réflexion, contexte
+04-references/        → Index croisés — outils, méthodes, normes internationales
 docs/                 → Notes annexes (bilingue fr/en)
-howto/                → (vide, réservé)
-templates/            → (vide, réservé pour templates)
+templates/            → Templates pour objets métier
 tools/                → Scripts PowerShell utilitaires
 troncs/               → JSON Schémas des troncs communs (6 troncs)
 ```
@@ -43,18 +43,17 @@ troncs/               → JSON Schémas des troncs communs (6 troncs)
 
 ### Contenu
 
-- `00-manifeste/README.md` — (vide, potentiellement un sommaire)
+- `00-manifeste/README.md` — Survol du manifeste
 - `00-manifeste/Note d'intention.md` — Document de genèse, vision et motivations de l'auteur
 - `00-manifeste/valeurs.md` — Les 5 valeurs fondamentales (Open Source, Agilité, Data Mesh, Humain, Visibilité)
 - `00-manifeste/valeurs-en.md` — Version anglaise des valeurs
-- `00-manifeste/principes.md` — (vide)
-- `00-manifeste/conventions-nommage.md` — Conventions de nommage en cours de définition
-- `00-manifeste/versionnement.md` — (vide)
+- `00-manifeste/principes.md` — 10 principes directeurs
+- `00-manifeste/conventions-nommage.md` — Conventions de nommage
+- `00-manifeste/versionnement.md` — Versionnement à 2 axes (classique + contexte)
 
 ### Rôle
 
-Cette section contient la **vision**, les **valeurs** et les **principes** fondateurs du projet.
-C'est le contexte philosophique et motivationnel qui éclaire toutes les décisions techniques.
+Ce dossier est le **tronc "Vie du repo"**. Il décrit d'où vient le projet, comment il fonctionne, ses règles, ses outils, son approche. C'est le contexte philosophique et motivationnel qui éclaire toutes les décisions techniques.
 
 ### Politique linguistique
 
@@ -67,12 +66,12 @@ Voir `docs/english-or-french.fr.md` pour le positionnement complet.
 
 ### Contenu
 
-- `01-normes-communes/README.md` — (vide, potentiellement un sommaire)
+- `01-normes-communes/README.md` — Survol des normes transversales
 - `01-normes-communes/categories.md` — Catégories des objets
 - `01-normes-communes/liens-croises.md` — Liens entre objets
 - `01-normes-communes/priorites.md` — Niveaux de priorité
 - `01-normes-communes/roles.md` — Définition des rôles
-- `01-normes-communes/statuts.md` — Cyclès de vie et statuts
+- `01-normes-communes/statuts.md` — Cycles de vie et statuts
 
 ### Rôle
 
@@ -82,6 +81,58 @@ Cette section définit les **standards transversaux** qui s'appliquent à tous l
 - Catégories
 - Rôles communs
 - Liens croisés entre objets
+- Identifications et tracings (comment on construit les identifiants, comment on relie les objets)
+
+---
+
+## Agent : Analyses
+
+### Contenu
+
+- `03-analyses/README.md` — Vue d'ensemble de la partie "organique"
+- `03-analyses/01-pourquoi/` — Pourquoi ce référentiel ? Pourquoi ces normes ?
+- `03-analyses/02-existants/` — Analyse des existants (outils, méthodes, normes)
+- `03-analyses/03-demarche/` — Comment on s'y prend (démarche)
+- `03-analyses/04-contextes/` — Liste des contextes
+
+### Rôle
+
+Ce dossier est la partie **organique** du projet. Là où les normes sont froides, tranchées, le résultat — les analyses sont l'exploration, la réflexion, le "pourquoi" et le "comment".
+
+- Un registre des risques, pourquoi ? Pas juste "comment le remplir"
+- Une décision, comment identifier qu'un risque est un risque et pas un incident ?
+- La méthodologie, ce n'est pas une méthode de plus — c'est la réflexion sur comment approcher la gouvernance
+
+### Contextes
+
+Chaque contexte = une autorité qui décide "la norme, c'est comme ça".
+
+Exemples : `moosh` (auteur), `rtbf`, `eu`, `microsoft`, `safer`, `pmi`...
+
+Chaque objet métier peut avoir des variantes selon le contexte. La version est préfixée avec le contexte : `OBJ-008-1.0-rtbf`.
+
+Voir `03-analyses/04-contextes/README.md` pour la liste complète.
+
+---
+
+## Agent : References
+
+### Contenu
+
+- `04-references/README.md` — Vue d'ensemble des index
+- `04-references/outils.md` — Index des outils (Jira, MS Project, Planner, Excel, Confluence, Notion, Obsidian...)
+- `04-references/methodes.md` — Index des méthodes (SAFe, PMBOK, PM², Lean, PRINCE2, ITIL 4, TOGAF, ADKAR...)
+- `04-references/normes.md` — Index des normes (ISO 21502, ISO 9001, COBIT, INSPIRE...)
+
+### Rôle
+
+Ce dossier indexe les outils, méthodes et normes internationales en relation avec le Work Structure Dictionary.
+
+Chaque entrée contient :
+- Nom de l'outil/méthode/norme
+- Lien vers documentation officielle
+- Objets de la norme couverts
+- Comment synchroniser (si applicable)
 
 ---
 
@@ -202,6 +253,9 @@ Quand on échange des données avec un système externe :
 ## Liens importants
 
 - Manifeste : `00-manifeste/Note d'intention.md`
+- Principes : `00-manifeste/principes.md`
+- Versionnement : `00-manifeste/versionnement.md`
 - Index des objets : `02-Objets-Metier/01-index/README.md`
 - Troncs communs : `02-Objets-Metier/troncs-communs.md`
-- Référence complète : `REFERENCE-HORS-LIGNE.md`
+- Contextes : `03-analyses/04-contextes/README.md`
+- Index croisés : `04-references/README.md`
